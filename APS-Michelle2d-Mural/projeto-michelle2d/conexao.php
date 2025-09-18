@@ -15,11 +15,7 @@ if (!$conexao) {
 
 // SENSITIVE CASE suportar acentos e Ç
 mysqli_set_charset($conexao, "utf8");
-
-
-// Opcional: definir charset para evitar problemas com acentos
-mysqli_set_charset($conexao, "utf8");
-
+ 
 // ==========================================
 // A PARTIR DAQUI, CONFIGURAÇÕES DO CLOUDINARY
 // ==========================================
@@ -29,5 +25,4 @@ $cloud_name = "dgvjwak0u";  // exemplo: "meucloud123"
 $api_key    = "465834784437313";     // exemplo: "123456789012345"
 $api_secret = "IUQb9DAamEgbxgtpaU9Tq9wvBF0";  // exemplo: "abcdeFGHijkLMNopqrstu"
 
-?>
-
+?>  
