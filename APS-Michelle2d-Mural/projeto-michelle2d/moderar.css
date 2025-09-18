@@ -1,0 +1,111 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('imgs/estrala\ roxa\ 2.jpg');
+    background-size: cover;
+    line-height: 1.6;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#geral {
+    width: 600px;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+#header h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #6b3fa0;
+}
+
+#formulario_mural label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#formulario_mural input[type="text"],
+#formulario_mural textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+    font-size: 14px;
+}
+
+#formulario_mural textarea {
+    min-height: 80px;
+}
+
+#formulario_mural .btn {
+    display: inline-block;
+    background-color: #6b3fa0;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#formulario_mural .btn:hover {
+    background-color: #7e52c2;
+}
+
+.Mural {
+    list-style: none;
+    background-color: #f9f5ff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border-left: 5px solid #6b3fa0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.Mural:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.Mural li {
+    margin-bottom: 6px;
+}
+
+.Mural a {
+    color: #6b3fa0;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: color 0.2s;
+}
+
+.Mural a:hover {
+    color: #7e52c2;
+    text-decoration: underline;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+    color: #777;
+}
