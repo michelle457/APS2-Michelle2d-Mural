@@ -78,7 +78,7 @@ COMPARAÇÃO COM O CÓDIGO DE "ANTIGOxCLOUDINARY"
 <head>
 <meta charset="utf-8"/>
 <title>Mural de Produtos</title>
-<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="mural.css"/>
 
 <!--
 COMPARAÇÃO: No código ANTIGO/pedidos havia jQuery + jQuery Validate
@@ -142,7 +142,7 @@ $(document).ready(function() {
             echo '<p><strong>Nome:</strong> ' . htmlspecialchars($res['nome']) . '</p>';
             echo '<p><strong>Preço:</strong> R$ ' . number_format($res['preco'], 2, ',', '.') . '</p>';
             echo '<p><strong>Descrição:</strong> ' . nl2br(htmlspecialchars($res['descricao'])) . '</p>';
-            echo '<img src="' . htmlspecialchars($res['imagem_url']) . '" alt="' . htmlspecialchars($res['nome']) . '">';
+            echo '<img src="' . htmlspecialchars($res['imagem_url']) . '" alt="' . htmlspecialchars($res['nome']) . '"class="padrão">';
             echo '</div>';
         }
 
@@ -157,7 +157,7 @@ $(document).ready(function() {
         </div>
 
         <div id="footer">
-            <p>Mural - Cloudinary & PHP</p>
+          
             <!-- No código anterior, o footer estava vazio -->
         </div>
     </div>

@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('imgs/estrala\ roxa\ 2.jpg');
+    background-image: url("imgs/azuls2.jpg");
     background-size: cover;
     line-height: 1.6;
 }
@@ -28,7 +28,7 @@ body {
 #header h1 {
     text-align: center;
     margin-bottom: 25px;
-    color: #6b3fa0;
+    color: #38B0DE;
 }
 
 #formulario_mural label {
@@ -54,7 +54,7 @@ body {
 
 #formulario_mural .btn {
     display: inline-block;
-    background-color: #6b3fa0;
+    background-color:#38B0DE;
     color: #fff;
     padding: 10px 18px;
     border: none;
@@ -65,7 +65,7 @@ body {
 }
 
 #formulario_mural .btn:hover {
-    background-color: #7e52c2;
+    background-color: #38B0DE;
 }
 
 .recados {
@@ -74,7 +74,7 @@ body {
     padding: 15px 20px;
     border-radius: 10px;
     margin-bottom: 15px;
-    border-left: 5px solid #6b3fa0;
+    border-left: 5px solid #38B0DE;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -93,4 +93,10 @@ body {
     margin-top: 25px;
     font-size: 13px;
     color: #777;
+}
+.padrão
+{
+    width: 50% ;
+ height: 50%;
+
 }
